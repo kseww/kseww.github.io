@@ -1,57 +1,149 @@
-html {
+* {
   box-sizing: border-box;
 }
 
 body {
-	width: 100%;
-	background: #f0f0f2;
-	margin: 0;
-	padding: 0;
-	font-family: 'Roboto', sans-serif;
+  font-family: "Ebrima";
+  color: #333945;
+  box-sizing: content-box;
+  padding-bottom: 50px;
 }
 
-
-.container {
-	box-sizing: border-box;
-	width: 1400px;
-	margin: 35px 60px;
+.wrapper {
+  width: 940px;
+  margin: auto;
+  margin-top: 35px;
 }
 
-.l {
-	box-sizing: border-box;
-	width: 20%;
-	font-size: 14px;
-	float: left;
+.logo {
+  display: inline-block;
+  float: left;
+  margin-top: 15px;
 }
 
-p.small {
-	font-size: 12px;
+header ul {
+  display: inline-block;
+  list-style-type: none;
+  text-transform: uppercase;
+  float: right;
+  font-size: 13px;
 }
 
-span.h {
-	font-size: 24px;
-	font-weight: 500;
+li {
+  display: inline-block;
+  padding: 15px 30px;
 }
 
-.r {
-	box-sizing: border-box;
-	position: relative;
-	width: 59%;
-	max-height: 1555px;
-	border: 1px solid gray;
-	float: left;
-	padding: 20px 10px 10px 20px;
-	margin-left: 150px;
-	margin-bottom: 35px;
-	color: #a8a49b;
-	font-size: 36px;
-	font-weight: 900;
-	line-height: 28px;
+.btn {
+  font-weight: bold;
+  background: #3fd1c4;
+  color: white;
+  border-radius: 5px;
+  margin-left: 20px;
 }
 
-ul {
-	list-style-type: none;
-	padding: 0;
-	margin: 0;
-	line-height: 36px;
+.title {
+  clear: both;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  text-align: center;
+  font-size:34px;
+}
+
+.main {
+  width: 940px;
+  margin: auto;
+  margin-top: 35px;
+  margin: auto;
+}
+
+.info, .forms {
+  width: 460px;
+  float: left;
+}
+
+.info p {
+  font-size: 20px;
+  padding: 15px 20px 15px 0px;
+}
+
+.forms p {
+  margin: 0 0 15px 0;
+
+}
+
+.call {
+    background: #3fd1c4;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+input, label, select {
+  display: block;
+  width:100%;
+}
+
+label {
+  padding: 25px 0 10px 5px;
+  font-weight: bold;
+}
+
+input, select, option {
+  padding: 10px 15px;
+  border: 2px solid #f1f1f1;
+  border-radius: 3px;
+}
+
+.half {
+  float: left;
+  width:48%;
+}
+
+.full {
+  width: 460px;
+}
+
+span.required {
+  color: #3fd1c4;
+}
+
+select:required:invalid {
+  color: #a9a9a9;
+}
+
+option[value=""][disabled] {
+  display:none;
+}
+
+option {
+  color: #333945;
+}
+
+input.btn {
+  display: inline-block;
+  width: 150px;
+  margin: 20px 0 30px 0;
+  padding: 10px;
+  border: none;
+  font-size: 13px;
+  text-transform: uppercase;
+  padding: 15px 30px;
+}
+
+img.btm {
+  margin-top: 100px;
+  width:100%;
+}
+
+.bottom ul {
+  padding-top: 10px;
+  float: right;
+}
+
+.bottom li {
+  padding: 0 0 20px 75px;
 }
